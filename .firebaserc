@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "prod": "prod-multi-webpack-travis",
+    "dev": "dev-multi-webpack-travis"
+  }
+}

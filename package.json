@@ -1,0 +1,32 @@
+{
+  "name": "multi_env_webpack_travis_app",
+  "version": "0.0.1",
+  "description": "Continuous deployment of a webpack app to multiple environments using Travic CI",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress -d --colors --content-base ./public",
+    "build": "webpack -p --config webpack.production.config.js",
+    "test": "jest"
+  },
+  "jest": {
+    "globals": {
+      "__CONFIG__": null
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartw/multi_env_webpack_travis_app.git"
+  },
+  "keywords": ["continuousdeployment", "cd", "webpack", "travis"],
+  "author": "Bart Wijnants",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bartw/multi_env_webpack_travis_app/issues"
+  },
+  "homepage": "https://github.com/bartw/multi_env_webpack_travis_app#readme",
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  }
+}
