@@ -20,6 +20,11 @@ firebase login:ci
 travis encrypt "1/xxx"
 ```
 
+```shell
+npm version patch
+git push --follow-tags
+```
+
 ## License
 
 This repo is licensed under the [MIT License](LICENSE).

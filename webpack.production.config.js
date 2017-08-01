@@ -7,7 +7,7 @@ module.exports = {
   plugins: [
     new webpack.DefinePlugin({
       __CONFIG__: JSON.stringify(
-        process.env.TRAVIS_TAG ? "remote prod" : "local prod"
+        process.env.TRAVIS_TAG ? "tagged prod" : "prod"
       )
     })
   ]
