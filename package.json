@@ -1,6 +1,6 @@
 {
   "name": "multi_env_webpack_travis_app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Continuous deployment of a webpack app to multiple environments using Travic CI",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,12 @@
     "type": "git",
     "url": "git+https://github.com/bartw/multi_env_webpack_travis_app.git"
   },
-  "keywords": ["continuousdeployment", "cd", "webpack", "travis"],
+  "keywords": [
+    "continuousdeployment",
+    "cd",
+    "webpack",
+    "travis"
+  ],
   "author": "Bart Wijnants",
   "license": "MIT",
   "bugs": {
