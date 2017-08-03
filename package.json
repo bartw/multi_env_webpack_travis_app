@@ -1,6 +1,6 @@
 {
   "name": "multi_env_webpack_travis_app",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Continuous deployment of a webpack app to multiple environments using Travic CI",
   "main": "index.js",
   "scripts": {
